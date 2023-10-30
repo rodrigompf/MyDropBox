@@ -7,28 +7,44 @@ Header{
     position: fixed;
     width: 100%;
 }
+header div{
+
+}
 header img{
     width: 50px;
     height: 50px;
 }
 header h3{
-    margin-left: 10px;
+    padding-left: 10px;
     color: black;
     font-size: 22px;
 }
 header ul li{
-    list-style: none;
     display: inline;
-    margin-left: 15px;
     color: black;
     font-size: 17px;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px;
+}
+header ul li:hover{
+    background-color: rgb(211, 211, 211);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    padding-left: 15%;
 }
 body {
     color:black;
     margin: 0;
     font-family: "Sharp Grotesk", sans-serif;
     background-color: gray;
-
+    
 }
 h1, h2, h3, h4, h5, h6 ,strong{
     font-family: "Circular", sans-serif;
@@ -37,19 +53,65 @@ h1, h2, h3, h4, h5, h6 ,strong{
     display: flex;
 }
 .box {
+
     flex: 1;
-    height: 860px;
-    color: #fff;
-    text-align: center;
-    line-height: 100px;
-    font-size: 20px;
-    margin: 0px;
+    height: 500px;
+    color: #d8d8d8;
+    text-align: left;
+    margin-top: 50px;
+    line-height: 1.5;
+    padding-left: 25px;
 }
 #box2 {
     flex: 1;
-    background-color: rgb(85, 85, 85);
+    background-color: rgb(33, 32, 32);
+    text-align: left center;
+    font-size: 23px;
 }
 #box1 {
-    flex: 2;
+    flex: 1.2;
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.button-link{
+        display: flex;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        align-items: left;
+}
+.button-link:hover {
+    background-color: #0056b3;
+}
+.button-link:active{
+    background-color: #003c80;
+}
+.awares{
+    height: 350px;
+    background-color: gray;
+}
+.payment{
+    height: 75px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+    color: black;
+    position: relative;
+    padding:  5px 10px;
+    text-decoration: none;
+}
+.button-link1{
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
