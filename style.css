@@ -9,8 +9,8 @@ Header{
 }
 
 header img{
-    width: 50px;
-    height: 50px;
+    width: 3.5%;
+    height: 100%;
 }
 header h3{
     padding-left: 10px;
@@ -53,25 +53,33 @@ h1, h2, h3, h4, h5, h6 ,strong{
 .box {
 
     flex: 1;
-    height: 500px;
-    color: #d8d8d8;
+    height: 100%;
     text-align: left;
     margin-top: 50px;
     line-height: 1.5;
-    padding-left: 25px;
+    width: 100%;
+}
+#box3 {
+    flex: 0.5;
+    background-color: rgb(33, 32, 32);
+    text-align: left center;
+    font-size: 23px;
 }
 #box2 {
     flex: 1;
     background-color: rgb(33, 32, 32);
     text-align: left center;
     font-size: 23px;
+    height: 600px; 
+    color: #d8d8d8;
 }
 #box1 {
-    flex: 1.5;
+    flex: 2 ;
     background-color: black;
     justify-content: center;
     align-items: center;
     display: flex;
+    color: #d8d8d8;
 }
 .button-link{
         display: flex;
@@ -91,20 +99,18 @@ h1, h2, h3, h4, h5, h6 ,strong{
     background-color: #003c80;
 }
 .Storage{
-    height: 200px;
-    background-color: rgb(205, 205, 205);
+    height: 180px;
+    background-color: rgb(228, 222, 222);
     text-align: center ;
-    padding-top: 50px;
+    padding-top: 3%;
 }
 .suport{
-    height: 75px;
-    background-color: whitesmoke;
+    height: 500px;
+    background-color: rgb(189, 186, 186);
     text-align: center;
     width: 100%;
     color: black;
-    position: relative;
-    padding:  5px 10px;
-    text-decoration: none;
+    padding-top: 1%;
 }
 .button-link1{
     padding: 10px;
